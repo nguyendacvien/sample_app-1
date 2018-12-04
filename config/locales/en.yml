@@ -4,6 +4,12 @@ en:
       sample_app: "Sample App"
       home: "Home"
       help: "Help"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
     footer:
       the: "The"
       title_tutor: "Ruby on Rails Tutorial"
@@ -50,6 +56,17 @@ en:
       announce_about_html: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_link: "http://www.railstutorial.org/contact"
       contact_link_detail: "contact page"
+  sessions:
+    new:
+      login: "Log In"
+      password: "Password"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
+    create:
+      success_message: "You've been logged in successfully"
+      error_messages: "Invalid email/password combination"
+    destroy:
+      logout_messages: "You've been logged out"
   users:
     new:
       sign_up: "Sign up"
@@ -60,9 +77,13 @@ en:
     load_user:
       error_messages: "This user could not be found"
   helpers:
-      label:
-        user: #model
-          name: "Name"
-          email: "Email"
-          password: "Password"
-          password_confirmation: "Confirmation"
+    label:
+      user: #model
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+      session:
+        email: "Email"
+        password: "Password"
+
