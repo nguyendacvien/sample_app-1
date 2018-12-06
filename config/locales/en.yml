@@ -77,6 +77,22 @@ en:
       sign_up_success: "Welcome to the Sample App!"
     load_user:
       error_messages: "This user could not be found"
+    edit:
+      title: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      gravatar_link: "http://gravatar.com/emails"
+      change: "change"
+      please_login: "Please log in."
+    update:
+      update_success: "Profile updated"
+    index:
+      title: "All users"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
+    destroy:
+      destroy_succ: "User deleted"
   helpers:
     label:
       user: #model
@@ -87,4 +103,3 @@ en:
       session:
         email: "Email"
         password: "Password"
-
